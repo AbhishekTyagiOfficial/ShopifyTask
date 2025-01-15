@@ -53,7 +53,7 @@ public class sShopifyInvoke {
 			
 			WebElement link = driver.findElement(By.xpath("//a[@data-component-name='login']"));
 			 link.click();
-			 System.out.println("Link Clicked"); Thread.sleep(3000);
+			 System.out.println("Linked Clicked"); Thread.sleep(3000);
 
 			// Step 3: Fill in signup details
 			WebElement emailField = driver.findElement(By.id("email"));
